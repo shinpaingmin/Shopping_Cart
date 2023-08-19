@@ -1,8 +1,7 @@
 # Project Structure
 
   1. Context API, useReducer hooks and other hooks were used in this project.
-  2. Lazy loading was used in this project for better performance.
-  3. React bootstrap components and react icons were used in this project.
+  2. React bootstrap components and react icons were used in this project.
 
 # Getting Started with Create React App
 
