@@ -1,3 +1,8 @@
+# Project Structure
+
+  1. Context API, useReducer hooks and other hooks were used in this project.
+  2. React bootstrap components and react icons were used in this project.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
