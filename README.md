@@ -4,6 +4,12 @@
   2. React bootstrap components and react icons were used in this project.
   3. Code splitting was used for better performance.
 
+# Features
+
+  1. Filtering, Sorting and Searching were included in this project.
+  2. Add to cart, remove from cart functions
+  3. Total price calculation
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
