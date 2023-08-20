@@ -2,6 +2,7 @@
 
   1. Context API, useReducer hooks and other hooks were used in this project.
   2. React bootstrap components and react icons were used in this project.
+  3. Code splitting was used for better performance.
 
 # Getting Started with Create React App
 
