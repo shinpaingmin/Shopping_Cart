@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useMemo } from 'react'
 import { CartState } from '../context/Context'
 import SingleProduct from '../components/SingleProduct';
 import Filter from '../components/Filter';
@@ -8,7 +8,7 @@ const Home = () => {
     // console.log(products);
     
     //display products
-    const transformProducts = () => {
+    const transformProducts = useMemo(() => {   //render condition
       let sortedProducts = products;
 
       //sort by price
@@ -38,13 +38,13 @@ const Home = () => {
         sortedProducts = sortedProducts.filter((prod)=>prod.name.toLowerCase().includes(searchQuery))
       }
       return sortedProducts;
-    }
+    }, [products, byStock, byFastDelivery, byRating, sort, searchQuery]);
   return (
     <div className='d-flex align-items-start'>
         <Filter/>
         <div className='productContainer' >
           {
-            transformProducts().map((item)=> (
+            transformProducts.map((item)=> (
               <SingleProduct key={item.id} item = {item}/>
             ))
           }
