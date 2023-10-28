@@ -10,6 +10,9 @@
   2. Add to cart, remove from cart functions
   3. Total price calculation
 
+# Project Showcase
+![screencapture-shinpaingmin-shopping-cart-netlify-app-home-2023-10-28-20_38_34](https://github.com/shinpaingmin/Today_Weather/assets/103930442/b37f91ff-09b3-4809-8302-9d0493c21934)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
